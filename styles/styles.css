@@ -1,24 +1,5 @@
 @import "./colors.css";
 
 body {
-    background-color: var(--neutral);
+    background-color: var(--dark-neutral);
 }
-
-.units ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.unit {
-    display: inline-block;
-}
-
-.unit a::after {
-    display: inline-block;
-    color: #000;
-    content: ' ';
-    font-size: 80%;
-    font-weight: bold;
-    padding: 0 3px;
-}
-

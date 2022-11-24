@@ -1,0 +1,51 @@
+@import "./colors.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--accent_1);
+    box-shadow: 0 5px 10px #00000000;
+    padding: 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .logo {
+    font-weight: bolder;
+    font-size: 25px;
+    color: var(--text_white);
+}
+
+header .units ul {
+    list-style: none;
+}
+
+header .units ul li {
+    position: relative;
+    float: left;
+}
+
+header .units ul li a {
+    font-size: larger;
+    padding: 20px;
+    color: var(--text_white);
+    display: block;
+}
+
+header .units ul li a:hover {
+    background-color: var(--accent_1_darker);
+    
+}
