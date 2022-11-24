@@ -15,7 +15,7 @@ header {
     left: 0;
     right: 0;
     background: var(--accent_1);
-    box-shadow: 0 5px 10px #00000000;
+    box-shadow: 0 5px 10px #00000020;
     padding: 0px 40px;
     display: flex;
     align-items: center;
@@ -39,13 +39,34 @@ header .units ul li {
 }
 
 header .units ul li a {
-    font-size: larger;
+    font-size: 20px;
     padding: 20px;
     color: var(--text_white);
     display: block;
 }
 
 header .units ul li a:hover {
-    background-color: var(--accent_1_darker);
-    
+    background: var(--accent_1_darker);
+}
+
+header .units ul li ul {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: var(--accent_2);
+    display: none;
+}
+
+header .units ul li ul li {
+    width: 100%;
+    border-top: 1px solid #000000ff;
+}
+
+header .units ul li ul li ul {
+    left: 200px;
+    top: 0;
+}
+header .units ul li:focus-within > ul,
+header .units ul li:hover > ul {
+    display: initial;
 }
