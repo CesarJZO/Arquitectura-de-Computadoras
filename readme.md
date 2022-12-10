@@ -21,8 +21,7 @@ Sitio web para la materia de Arquitectura de computadoras.
 1. Organización del procesador
 1. Registros del procesador
 1. Registros visibles para el usuario
-1. Registros de control y estados
-1. Ejemplos de registros de la CPU
+1. Registros de control y estados2
 1. El ciclo de la instrucción
 1. Ciclo FDE
 1. Segmentación de instrucciones

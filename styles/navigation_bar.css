@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-transform: capitalize;
     text-decoration: none;
 }
 
@@ -16,7 +15,7 @@ header {
     right: 0;
     background: var(--accent_1);
     box-shadow: 0 5px 10px #00000020;
-    padding: 0px 40px;
+    padding: 0px 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,7 +38,7 @@ header .units ul li {
 }
 
 header .units ul li a {
-    font-size: 20px;
+    font-size: 16px;
     padding: 20px;
     color: var(--text_white);
     display: block;
@@ -65,6 +64,7 @@ header .units ul li ul li {
 header .units ul li ul li ul {
     left: 200px;
     top: 0;
+    right: 200px;
 }
 header .units ul li:focus-within > ul,
 header .units ul li:hover > ul {
