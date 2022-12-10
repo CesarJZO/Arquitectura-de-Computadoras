@@ -18,16 +18,20 @@ Sitio web para la materia de Arquitectura de computadoras.
 
 ### Unidad 2: Estructura y funcionamiento de unidad central de procesamiento
 
-1. Organización del procesador
 1. Registros del procesador
-1. Registros visibles para el usuario
-1. Registros de control y estados2
+1. Tipos de registros
+    1. Registros de datos
+    1. Registros de datos de memoria (MDR)
+    1. Registros de direcciones
+    1. Registros de propósito general
+    1. Registros de estado
+    1. Registros de bandera
+    1. Registros constantes
 1. El ciclo de la instrucción
-1. Ciclo FDE
-1. Segmentación de instrucciones
-1. Conjunto de instrucciones, características e instrucciones
+    1. Ciclo FDE
+    1. Segmentación de instrucciones
+    1. Conjunto de instrucciones
 1. Modos de direccionamiento
-1. Casos de estudio de la CPU
 
 ### Unidad 3: Selección de componentes para ensamble de equipo
 

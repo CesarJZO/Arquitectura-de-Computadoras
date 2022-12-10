@@ -3,3 +3,32 @@
 body {
     background-color: var(--dark-neutral);
 }
+
+h1, h2, h3 {
+    color: var(--text_white);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: var(--text_white);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+li {
+    list-style: none;
+}
+
+a.bibliography {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: var(--text_white);
+}
+
+.article {
+    padding: 64px 0px;
+    width: 600px;
+    margin: auto;
+}

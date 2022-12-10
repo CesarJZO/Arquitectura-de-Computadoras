@@ -1,14 +1,10 @@
 @import "./colors.css";
 
-* {
+header {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
-}
-
-header {
     position: fixed;
     top: 0;
     left: 0;
@@ -23,21 +19,37 @@ header {
 }
 
 header .logo {
-    font-weight: bolder;
-    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    height: 48px;
     color: var(--text_white);
 }
 
 header .units ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
     list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header .units ul li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
     position: relative;
     float: left;
 }
 
 header .units ul li a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
     font-size: 16px;
     padding: 20px;
     color: var(--text_white);
@@ -49,6 +61,10 @@ header .units ul li a:hover {
 }
 
 header .units ul li ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
     position: absolute;
     left: 0;
     width: 200px;
@@ -57,16 +73,28 @@ header .units ul li ul {
 }
 
 header .units ul li ul li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
     width: 100%;
     border-top: 1px solid #000000ff;
 }
 
 header .units ul li ul li ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
     left: 200px;
     top: 0;
     right: 200px;
 }
 header .units ul li:focus-within > ul,
 header .units ul li:hover > ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
     display: initial;
 }
