@@ -2,6 +2,8 @@
 
 Sitio web para la materia de Arquitectura de computadoras.
 
+https://cesarjzo.github.io/Arquitectura-de-Computadoras/
+
 ### Unidad 1: Arquitectura de computadoras
 
 1. Modelos de arquitectura
