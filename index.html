@@ -1,14 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/navigation_bar.css">
+  <link rel="stylesheet" href="./styles/styles.css">
   <title>Arquitectura de computadoras</title>
 </head>
 
 <body>
+  <header>
+    <a href="https://saltillo.tecnm.mx/">
+      <img src="./images/escudo_its.png" alt="Escudo del ITS" class="logo">
+    </a>
+    <nav class="units">
+      <ul>
+        <li>
+          <a href="">Unidad 1</a>
+          <ul>
+            <li><a href="#">Modelos de arquitectura</a></li>
+            <li><a href="#">Análisis de componentes</a></li>
+            <li><a href="#">Unidad central de procesamiento</a></li>
+            <li><a href="#">Unidad aritmética lógica</a></li>
+            <li><a href="#">Registros</a></li>
+            <li><a href="#">Buses</a></li>
+            <li><a href="#">Memoria</a></li>
+            <li><a href="#">Entrada/salida</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Unidad 2</a>
+          <ul>
+            <li><a href="#">Registros del procesador</a></li>
+            <li><a href="#">Tipos de registros</a></li>
+            <li><a href="#">El ciclo de la instrucción</a></li>
+            <li><a href="#">Modos de direccionamiento</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Unidad 3</a>
+          <ul>
+            <li><a href="#">Chip set</a></li>
+            <li><a href="#">Aplicaciones</a></li>
+            <li><a href="#">Ambientes de servicio</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Unidad 4</a>
+          <ul>
+            <li><a href="#">Aspectos básicos de la computación paralela</a></li>
+            <li><a href="#">Tipos de computación paralela</a></li>
+            <li><a href="#">Sistemas de memoria compartida</a></li>
+            <li><a href="#">Sistemas de memoria distribuida</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
+  <h1>Arquitectura de computadoras</h1>
+  <p>
+    La arquitectura de computadoras es la descripción de la estructura de un sistema computacional hecho de
+    componentes. A veces puede ser una descripción de alto nivel que ignora los detalles de la implementación. En un
+    nivel más detallado, la descripción puede incluir el diseño de la arquitectura del conjunto
+    de instrucciones, el diseño de la microarquitectura, el diseño lógico y la implementación.
+  </p>
+  <img src="./images/ABasicComputer.svg" alt="Diagrama de la arquitectura de computadoras">
+  <p>
+    La arquitectura de computadoras se encarga de equilibrar el rendimiento, la eficiencia, el costo y la confiabilidad
+    de un sistema informático. El caso de la arquitectura del conjunto de instrucciones se puede utilizar para ilustrar
+    el equilibrio de estos factores en competencia. Los conjuntos de instrucciones más complejos permiten a los
+    programadores escribir programas más eficientes en el espacio, ya que una sola instrucción puede codificar alguna
+    abstracción de nivel superior (como la instrucción Loop x86). Sin embargo, las instrucciones más largas y
+    complejas requieren más tiempo para que el procesador las decodifique y pueden ser más costosas de implementar de
+    manera efectiva. La mayor complejidad de un gran conjunto de instrucciones también crea más espacio para la falta
+    de confiabilidad cuando las instrucciones interactúan de manera inesperada.
+  </p>
+  <p>
+    La implementación implica el diseño de circuitos integrados, el empaquetado, la alimentación y la refrigeración.
+    La optimización del diseño requiere familiaridad con los compiladores, los sistemas operativos, el diseño lógico y
+    el empaquetado.
+  </p>
 </body>
 
 </html>

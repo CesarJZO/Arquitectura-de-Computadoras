@@ -1,0 +1,100 @@
+@import "./colors.css";
+
+header {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--accent_1);
+    box-shadow: 0 5px 10px #00000020;
+    padding: 0px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .logo {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    height: 48px;
+    color: var(--text_white);
+}
+
+header .units ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header .units ul li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    position: relative;
+    float: left;
+}
+
+header .units ul li a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 20px;
+    color: var(--text_white);
+    display: block;
+}
+
+header .units ul li a:hover {
+    background: var(--accent_1_darker);
+}
+
+header .units ul li ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: var(--accent_2);
+    display: none;
+}
+
+header .units ul li ul li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    width: 100%;
+    border-top: 1px solid #000000ff;
+}
+
+header .units ul li ul li ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    left: 200px;
+    top: 0;
+    right: 200px;
+}
+header .units ul li:focus-within > ul,
+header .units ul li:hover > ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    display: initial;
+}
