@@ -49,7 +49,8 @@
         <li>
           <a href="">Unidad 4</a>
           <ul>
-            <li><a href="../unidad_4/aspectos_básicos_de_la_computación_paralela.html">Aspectos básicos de la computación paralela</a></li>
+            <li><a href="../unidad_4/aspectos_básicos_de_la_computación_paralela.html">Aspectos básicos de la
+                computación paralela</a></li>
             <li><a href="../unidad_4/tipos_de_computación_paralela.html">Tipos de computación paralela</a></li>
             <li><a href="../unidad_4/sistemas_de_memoria_compartida.html">Sistemas de memoria compartida</a></li>
             <li><a href="../unidad_4/sistemas_de_memoria_distribuida.html">Sistemas de memoria distribuida</a></li>
@@ -60,6 +61,74 @@
   </header>
 
   <h1>Registros del procesador</h1>
+  <p>
+    Un procesador a menudo contiene varios tipos de registros, que se pueden clasificar según los tipos de valores que
+    pueden almacenar o las instrucciones que operan en ellos:
+  </p>
+  <ul>
+    <li>
+      Los <strong>registros accesibles para el usuario</strong> se pueden leer o escribir mediante instrucciones de
+      máquina. La división
+      más común de los registros accesibles al usuario es en registros de datos y registros de direcciones.
+      <ul>
+        <li>
+          Los <strong>registros de datos</strong> pueden contener valores de datos numéricos como enteros y, en algunas
+          arquitecturas,
+          valores de coma flotante, así como caracteres, matrices de bits pequeños y otros datos. En algunas
+          arquitecturas más antiguas, como la IBM 704, la IBM 709 y las sucesoras, la PDP-1, la
+          PDP-4/PDP-7/PDP-9/PDP-15, la PDP-5/PDP-8 y la HP 2100, un registro de datos especial conocido como acumulador
+          se usa implícitamente para muchas operaciones.
+        </li>
+        <li>
+          Los <strong>registros de direcciones</strong> contienen direcciones y son utilizados por instrucciones que
+          acceden indirectamente a la memoria primaria.
+        </li>
+        <li>
+          Los <strong>registros de propósito general</strong> (GPR) pueden almacenar tanto datos como direcciones, es decir, son
+          registros combinados de datos/direcciones; en algunas arquitecturas, el archivo de registro está unificado
+          para que los GPR también puedan almacenar números de punto flotante.
+        </li>
+        <li>
+          Los <strong>registros de estado</strong> contienen valores de verdad que a menudo se utilizan para determinar si una
+          instrucción debe o no ejecutarse.
+        </li>
+        <li>
+          Los <strong>registros de coma flotante</strong> (FPR) almacenan números de coma flotante en muchas arquitecturas.
+        </li>
+        <li>
+          Los <strong>registros constantes</strong> contienen valores de solo lectura como cero, uno o π.
+        </li>
+        <li>
+          Los <strong>registros vectoriales</strong> contienen datos para el procesamiento vectorial realizado por instrucciones SIMD
+          (instrucción única, datos múltiples).
+        </li>
+        <li>
+          Los <strong>registros de propósito especial</strong> (SPR) contienen algunos elementos del estado del programa; suelen incluir
+          el contador de programa, también llamado puntero de instrucción, y el registro de estado; el contador de
+          programa y el registro de estado pueden combinarse en un registro de palabra de estado de programa (PSW). El
+          puntero de pila antes mencionado a veces también se incluye en este grupo. Los microprocesadores integrados
+          también pueden tener registros correspondientes a elementos de hardware especializados.
+        </li>
+      </ul>
+    </li>
+    <li>
+      Los <strong>registros internos</strong> no son accesibles mediante instrucciones y se utilizan internamente para
+      las operaciones del procesador.
+      <ul>
+        <li>
+          El <strong>registro de instrucciones</strong> contiene la instrucción que se está ejecutando actualmente.
+        </li>
+        <li>
+          Registros relacionados con la obtención de información de la RAM, una colección de registros de almacenamiento
+          ubicados en chips separados de la CPU:
+          <ul>
+            <li><strong>Registro de búfer de memoria</strong> (MBR), también conocido como registro de datos de memoria (MDR)</li>
+            <li><strong>Registro de direcciones de memoria</strong> (MAR)</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
 </body>
 
 </html>
