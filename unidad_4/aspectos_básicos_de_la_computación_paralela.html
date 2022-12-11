@@ -50,7 +50,8 @@
         <li>
           <a href="">Unidad 4</a>
           <ul>
-            <li><a href="./aspectos_básicos_de_la_computación_paralela.html">Aspectos básicos de la computación paralela</a></li>
+            <li><a href="./aspectos_básicos_de_la_computación_paralela.html">Aspectos básicos de la computación
+                paralela</a></li>
             <li><a href="./tipos_de_computación_paralela.html">Tipos de computación paralela</a></li>
             <li><a href="./sistemas_de_memoria_compartida.html">Sistemas de memoria compartida</a></li>
             <li><a href="./sistemas_de_memoria_distribuida.html">Sistemas de memoria distribuida</a></li>
@@ -61,6 +62,63 @@
   </header>
 
   <h1>Aspectos básicos de la computación paralela</h1>
-</body>
+  <p>
+    La computación paralela se refiere a la utilización de múltiples procesadores o unidades de procesamiento
+    simultáneamente para realizar tareas de cálculo de manera más rápida y eficiente. Esto se logra dividiendo una tarea
+    en varias sub-tareas que se ejecutan de manera concurrente en diferentes procesadores o unidades de procesamiento.
+    Los aspectos básicos de la computación paralela incluyen el uso de múltiples núcleos en un único procesador, la
+    conexión de varios procesadores a través de una red de comunicación, y el uso de técnicas de programación
+    especializadas para aprovechar al máximo la capacidad de procesamiento paralelo. La computación paralela se utiliza
+    en aplicaciones que requieren un gran poder de cálculo, como el análisis de datos masivos, la simulación científica
+    y el procesamiento de imágenes en tiempo real.
+  </p>
 
+  <h2>Ley de Amdahl</h2>
+  <p>
+    La ley de Amdahl es una ley fundamental en la computación paralela que establece que el rendimiento máximo que se
+    puede obtener de un sistema informático paralelo está limitado por la proporción de tareas que pueden ser
+    paralelizadas. Esta ley fue desarrollada por el ingeniero informático Gene Amdahl en la década de 1960 y sostiene
+    que cuanto mayor sea la proporción de tareas que se pueden ejecutar de manera concurrente en un sistema paralelo,
+    mayor será el rendimiento del sistema en términos de velocidad y eficiencia. Sin embargo, también señala que siempre
+    habrá una parte de la tarea que no puede ser paralelizada, lo que limitará el rendimiento máximo del sistema. La ley
+    de Amdahl es un concepto importante a tener en cuenta en el diseño de sistemas informáticos paralelos.
+  </p>
+
+  <h2>Ley de Gustafson</h2>
+  <p>
+    La ley de Gustafson es una ley que se desarrolló en la década de 1980 como una extensión de la ley de Amdahl.
+    Mientras que la ley de Amdahl se centra en el rendimiento máximo que se puede obtener de un sistema informático
+    paralelo en función de la proporción de tareas que pueden ser paralelizadas, la ley de Gustafson se enfoca en el
+    rendimiento del sistema en función del tamaño de la tarea. Según esta ley, cuando se aumenta el tamaño de la tarea,
+    el rendimiento del sistema paralelo aumenta de manera más pronunciada que el rendimiento de un sistema secuencial,
+    lo que permite alcanzar un rendimiento máximo más alto en el sistema paralelo. La ley de Gustafson es un concepto
+    importante en el diseño de sistemas informáticos paralelos cuando se trabaja con tareas de gran tamaño.
+  </p>
+
+  <h2>Condiciones de carrera, exclusión mutua, sincronización y desaceleración paralela</h2>
+  <p>
+    Las <strong>condiciones de carrera</strong> se refieren a una situación en la que dos o más subprocesos intentan
+    acceder a un recurso compartido al mismo tiempo, lo que puede provocar un conflicto y afectar el rendimiento del
+    sistema. La <strong>exclusión mutua</strong> se refiere a la necesidad de garantizar que un recurso compartido sólo
+    pueda ser utilizado por un subproceso a la vez, para evitar conflictos y garantizar la integridad de los datos. La
+    <strong>sincronización</strong> paralela se refiere a la utilización de técnicas de programación para coordinar el
+    acceso a los recursos compartidos por los subprocesos, a fin de evitar conflictos y asegurar que los subprocesos se
+    ejecuten de manera consistente y correcta. La <strong>desaceleración</strong> paralela se refiere a la situación en
+    la que el rendimiento de un sistema paralelo es menor que el rendimiento de un sistema secuencial, lo que puede
+    deberse a factores como la comunicación entre subprocesos o el acceso a recursos compartidos. Estos conceptos son
+    importantes en el diseño y la implementación de sistemas informáticos paralelos.
+  </p>
+
+  <h2>Modelos de consistencia</h2>
+  <p>
+    Los modelos de consistencia son un conjunto de reglas y principios que determinan cómo se comportan y se actualizan
+    los datos en un sistema computacional distribuido. Estos modelos son importantes para garantizar la integridad y la
+    coherencia de los datos en un sistema distribuido, y existen diferentes modelos de consistencia que se aplican en
+    función de las necesidades y características del sistema. Algunos ejemplos de modelos de consistencia son el modelo
+    de consistencia eventual, el modelo de consistencia débil, el modelo de consistencia fuerte y el modelo de
+    consistencia serializada. Los modelos de consistencia son un tema importante en la arquitectura de sistemas
+    informáticos distribuidos.
+  </p>
+</body>
+paralel
 </html>
