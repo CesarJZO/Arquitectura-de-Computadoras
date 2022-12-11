@@ -50,7 +50,8 @@
         <li>
           <a href="">Unidad 4</a>
           <ul>
-            <li><a href="./aspectos_básicos_de_la_computación_paralela.html">Aspectos básicos de la computación paralela</a></li>
+            <li><a href="./aspectos_básicos_de_la_computación_paralela.html">Aspectos básicos de la computación
+                paralela</a></li>
             <li><a href="./tipos_de_computación_paralela.html">Tipos de computación paralela</a></li>
             <li><a href="./sistemas_de_memoria_compartida.html">Sistemas de memoria compartida</a></li>
             <li><a href="./sistemas_de_memoria_distribuida.html">Sistemas de memoria distribuida</a></li>
@@ -61,6 +62,133 @@
   </header>
 
   <h1>Tipos de computación paralela</h1>
+  <p>
+    Hay varios tipos de computación paralela, que se diferencian en función de la forma en que se distribuyen las tareas
+    entre los procesadores o unidades de procesamiento.
+  </p>
+
+  <h2>Paralelismo a nivel de bit</h2>
+  <p>
+    El paralelismo a nivel de bit se refiere a la capacidad de realizar operaciones de manera concurrente en el nivel
+    más bajo, es decir, a nivel de bit. Esto se logra mediante el uso de circuitos lógicos especializados que pueden
+    realizar operaciones en paralelo en el nivel de bit, lo que permite aumentar la velocidad y la eficiencia del
+    sistema. El paralelismo a nivel de bit es una técnica avanzada de computación paralela que se utiliza en
+    aplicaciones que requieren un alto grado de precisión y rendimiento, como la criptografía y el procesamiento de
+    señales.
+  </p>
+
+  <h2>Paralelismo a nivel de instrucción</h2>
+  <p>
+    El paralelismo a nivel de instrucción se refiere a la capacidad de ejecutar varias instrucciones de manera
+    concurrente en un único procesador. Esto se logra mediante el uso de unidades de procesamiento múltiples o núcleos
+    en un único procesador, que permiten ejecutar instrucciones de manera concurrente en el mismo procesador. El
+    paralelismo a nivel de instrucción es una técnica común en la computación paralela y se utiliza en aplicaciones que
+    requieren un gran poder de cálculo, como el análisis de datos masivos.
+  </p>
+  <h2>Paralelismo de datos</h2>
+  <p>
+    El paralelismo de datos se refiere a la capacidad de procesar diferentes conjuntos de datos de manera concurrente en
+    diferentes procesadores o unidades de procesamiento. Esto se logra mediante la división de los datos en varios
+    conjuntos que se procesan de manera concurrente en diferentes procesadores, lo que permite aumentar la velocidad y
+    la eficiencia del sistema. El paralelismo de datos es una técnica común en la computación paralela y se utiliza en
+    aplicaciones que requieren el procesamiento de grandes cantidades de datos, como el análisis de datos masivos y la
+    minería de datos.
+  </p>
+  <h2>Paralelismo de tareas</h2>
+  <p>
+    El paralelismo de tareas se refiere a la capacidad de ejecutar varias tareas de manera concurrente en diferentes
+    procesadores o unidades de procesamiento. Esto se logra mediante la división de la tarea en varias sub-tareas que se
+    ejecutan de manera concurrente en diferentes procesadores, lo que permite aumentar la velocidad y la eficiencia del
+    sistema. El paralelismo de tareas es una técnica común en la computación paralela y se utiliza en aplicaciones que
+    requieren el procesamiento de tareas complejas, como la simulación científica y el procesamiento de imágenes en
+    tiempo real.
+  </p>
+
+  <h2>Clasificación</h2>
+  <p>
+    La computación paralela se puede clasificar en diferentes tipos según la forma en que se distribuyen las tareas
+    entre los procesadores o unidades de procesamiento. Algunos ejemplos de clasificaciones de la computación paralela
+    son:
+  </p>
+  <ul class="list">
+    <li>
+      <strong>Computación multinúcleo</strong>: en este tipo de computación paralela, se utilizan procesadores con
+      varios núcleos o unidades de procesamiento, que permiten ejecutar tareas de manera concurrente en el mismo
+      procesador.
+    </li>
+    <li>
+      <strong>Multiprocesamiento simétrico</strong>: en este tipo de computación paralela, se conectan varios
+      procesadores a través de
+      una red de comunicación, lo que permite distribuir las tareas entre ellos y ejecutarlas de manera concurrente.
+    </li>
+    <li>
+      <strong>Competición en cluster</strong>: en este tipo de computación paralela, se utilizan varios servidores o
+      nodos en un cluster
+      para ejecutar tareas de manera concurrente.
+    </li>
+    <li>
+      <strong>Procesamiento paralelo masivo</strong>: en este tipo de computación paralela, se utilizan sistemas
+      informáticos con gran
+      capacidad de procesamiento para ejecutar tareas complejas de manera concurrente.
+    </li>
+    <li>
+      <strong>Computación distribuida</strong>: en este tipo de computación paralela, se utilizan varios sistemas
+      informáticos ubicados
+      en diferentes lugares y conectados a través de una red de comunicación para ejecutar tareas de manera concurrente.
+    </li>
+    <li>
+      <strong>Computadoras paralelas especializadas</strong>: en este tipo de computación paralela, se utilizan sistemas
+      informáticos
+      especializados que están diseñados para ejecutar tareas de manera concurrente de manera eficiente.
+    </li>
+    <li>
+      <strong>Cómputo reconfigurable con arreglos de compuertas programables</strong>: en este tipo de computación
+      paralela, se utilizan
+      circuitos lógicos programables que se pueden configurar de diferentes maneras para realizar operaciones en
+      paralelo.
+    </li>
+    <li>
+      <strong>Cómputo de propósito general en unidades de procesamiento gráfica</strong>: en este tipo de computación
+      paralela, se
+      utilizan unidades de procesamiento gráfico (GPU) para ejecutar tareas de manera concurrente, lo que permite
+      acelerar el procesamiento de datos y gráficos.
+    </li>
+    <li>
+      <strong>Circuitos integrados de aplicación específica (ASIC)</strong>: en este tipo de computación paralela, se
+      utilizan circuitos
+      integrados diseñados específicamente para realizar operaciones en paralelo de manera eficiente.
+    </li>
+    <li>
+      <strong>Procesadores vectoriales</strong>: en este tipo de computación paralela, se utilizan procesadores que
+      tienen la capacidad
+      de realizar operaciones vectoriales en paralelo, lo que permite aumentar la velocidad y la eficiencia del sistema.
+    </li>
+  </ul>
+
+  <h2>Arquitectura de computadoras secuenciales</h2>
+  <p>
+    La arquitectura de computadoras secuenciales se refiere a la forma en que están diseñados y organizados los
+    componentes de un sistema informático que se ejecuta de manera secuencial, es decir, que ejecuta una instrucción a
+    la vez. En una arquitectura de computadoras secuenciales, se utiliza un único procesador o unidad de procesamiento
+    para ejecutar las instrucciones del programa en secuencia. Esta arquitectura es la más común en los sistemas
+    informáticos y ha sido utilizada desde los primeros ordenadores. Aunque la arquitectura de computadoras secuenciales
+    es eficiente para la ejecución de tareas simples y secuenciales, tiene un rendimiento limitado cuando se trabaja con
+    tareas complejas y concurrentes.
+  </p>
+
+  <h2>Organización de direcciones de memoria</h2>
+  <p>
+    La organización de direcciones de memoria se refiere a la forma en que se organizan y se asignan las direcciones de
+    memoria a los diferentes componentes de un sistema informático. Esta organización es importante para garantizar que
+    los componentes del sistema puedan acceder a la memoria de manera eficiente y para evitar conflictos y errores.
+  </p>
+  <p>
+    Hay varias formas de organizar las direcciones de memoria en un sistema informático, como la organización por
+    bloques o por segmentos, la organización por páginas, la organización por conjuntos, la organización por niveles y
+    la organización en anillos. Cada una de estas organizaciones tiene sus propias ventajas y desventajas, y se utilizan
+    en función de las necesidades y características del sistema. La organización de direcciones de memoria es un tema
+    importante en la arquitectura de sistemas informáticos.
+  </p>
 </body>
 
 </html>
