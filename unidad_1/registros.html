@@ -49,7 +49,8 @@
         <li>
           <a href="">Unidad 4</a>
           <ul>
-            <li><a href="../unidad_4/aspectos_básicos_de_la_computación_paralela.html">Aspectos básicos de la computación paralela</a></li>
+            <li><a href="../unidad_4/aspectos_básicos_de_la_computación_paralela.html">Aspectos básicos de la
+                computación paralela</a></li>
             <li><a href="../unidad_4/tipos_de_computación_paralela.html">Tipos de computación paralela</a></li>
             <li><a href="../unidad_4/sistemas_de_memoria_compartida.html">Sistemas de memoria compartida</a></li>
             <li><a href="../unidad_4/sistemas_de_memoria_distribuida.html">Sistemas de memoria distribuida</a></li>
@@ -60,6 +61,37 @@
   </header>
 
   <h1>Registros</h1>
+  <p>
+    Un registro de procesador es una ubicación de acceso rápido disponible para el procesador de una computadora. Los
+    registros generalmente consisten en una pequeña cantidad de almacenamiento rápido, aunque algunos registros tienen
+    funciones de hardware específicas y pueden ser de solo lectura o solo escritura. En la arquitectura de la
+    computadora, los registros generalmente se direccionan mediante mecanismos distintos de la memoria principal, pero
+    en algunos casos se les puede asignar una dirección de memoria, p. DIC PDP-10, TIC 1900.
+  </p>
+  <img src="https://www.learncomputerscienceonline.com/wp-content/uploads/2021/06/What-Are-CPU-Registers.jpg"
+    alt="Registros">
+  <p>
+    Casi todas las computadoras, ya sea que carguen/almacenen la arquitectura o no, cargan datos de una memoria más
+    grande en registros donde se utilizan para operaciones aritméticas y se manipulan o prueban mediante instrucciones
+    de máquina. Los datos manipulados a menudo se almacenan nuevamente en la memoria principal, ya sea por la misma
+    instrucción o por una posterior. Los procesadores modernos utilizan RAM estática o dinámica como memoria principal,
+    a la que generalmente se accede a través de uno o más niveles de caché.
+  </p>
+  <p>
+    Los registros del procesador normalmente se encuentran en la parte superior de la jerarquía de la memoria y
+    proporcionan la forma más rápida de acceder a los datos. El término normalmente se refiere solo al grupo de
+    registros que se codifican directamente como parte de una instrucción, según lo define el conjunto de instrucciones.
+    Sin embargo, las CPU modernas de alto rendimiento a menudo tienen duplicados de estos "registros arquitectónicos"
+    para mejorar el rendimiento mediante el cambio de nombre de los registros, lo que permite una ejecución paralela y
+    especulativa. El diseño x86 moderno adquirió estas técnicas alrededor de 1995 con los lanzamientos de Pentium Pro,
+    Cyrix 6x86, Nx586 y AMD K5.
+  </p>
+  <p>
+    Cuando un programa informático accede repetidamente a los mismos datos, se denomina localidad de referencia.
+    Mantener los valores de uso frecuente en los registros puede ser fundamental para el rendimiento de un programa. La
+    asignación de registros la realiza un compilador en la fase de generación de código o manualmente un programador de
+    lenguaje ensamblador.
+  </p>
 </body>
 
 </html>
