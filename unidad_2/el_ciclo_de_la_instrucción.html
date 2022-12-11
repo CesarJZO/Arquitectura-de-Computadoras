@@ -50,7 +50,8 @@
         <li>
           <a href="">Unidad 4</a>
           <ul>
-            <li><a href="../unidad_4/aspectos_básicos_de_la_computación_paralela.html">Aspectos básicos de la computación paralela</a></li>
+            <li><a href="../unidad_4/aspectos_básicos_de_la_computación_paralela.html">Aspectos básicos de la
+                computación paralela</a></li>
             <li><a href="../unidad_4/tipos_de_computación_paralela.html">Tipos de computación paralela</a></li>
             <li><a href="../unidad_4/sistemas_de_memoria_compartida.html">Sistemas de memoria compartida</a></li>
             <li><a href="../unidad_4/sistemas_de_memoria_distribuida.html">Sistemas de memoria distribuida</a></li>
@@ -61,6 +62,75 @@
   </header>
 
   <h1>El ciclo de la instrucción</h1>
+  <p>
+    El ciclo de instrucción es el proceso que sigue una computadora al ejecutar una instrucción de programa. Este
+    proceso generalmente se divide en cuatro etapas: <strong>fetch</strong>, <strong>decode</strong>,
+    <strong>execute</strong> y <strong>writeback</strong>.
+  </p>
+  <p>
+    En la etapa de <strong>fetch</strong>, la computadora obtiene la siguiente instrucción a ejecutar del programa
+    almacenado en la memoria. Esta instrucción se carga en un registro especial llamado registro de instrucción.
+  </p>
+  <p>
+    En la etapa de <strong>decode</strong>, la computadora analiza la instrucción para determinar qué acción debe
+    realizar. Esto puede incluir leer o escribir en la memoria, realizar cálculos, o cambiar el flujo de ejecución del
+    programa.
+  </p>
+  <p>
+    En la etapa de <strong>execute</strong>, la computadora lleva a cabo la acción especificada por la instrucción. Por
+    ejemplo, si la instrucción es una operación aritmética, la computadora realizará el cálculo en esta etapa.
+  </p>
+  <p>
+    Finalmente, en la etapa de <strong>writeback</strong>, la computadora almacena el resultado de la instrucción en la
+    memoria o en un registro. Una vez que se completa esta etapa, se inicia el siguiente ciclo de instrucción con la
+    siguiente
+    instrucción del programa.
+  </p>
+  <p>
+    El ciclo de instrucción es un proceso fundamental en la arquitectura de las computadoras y es la forma en que estas
+    llevan a cabo las tareas que les son encomendadas.
+  </p>
+
+  <h2>Segmentación de instrucciones</h2>
+  <p>
+    La segmentación de instrucciones es una técnica utilizada por algunos procesadores para mejorar la eficiencia en la
+    ejecución de instrucciones. Esta técnica divide el flujo de ejecución del programa en diferentes segmentos, cada uno
+    de los cuales contiene un conjunto de instrucciones que se ejecutan de forma secuencial.
+  </p>
+  <p>
+    La idea detrás de la segmentación de instrucciones es que algunas instrucciones tienen dependencias con otras, lo
+    que significa que una instrucción no puede comenzar a ejecutarse hasta que otra instrucción haya sido completada.
+    Esto puede causar retrasos en la ejecución del programa y reducir su eficiencia.
+  </p>
+  <p>
+    La segmentación de instrucciones permite que las instrucciones independientes se ejecuten de forma concurrente en
+    diferentes segmentos, lo que aumenta la eficiencia y reduce los retrasos. De esta manera, el procesador puede
+    ejecutar varias instrucciones al mismo tiempo y aprovechar al máximo sus recursos.
+  </p>
+  <p>
+    La segmentación de instrucciones es una técnica avanzada utilizada en algunos procesadores modernos y requiere una
+    arquitectura de hardware especializada. No todas las computadoras utilizan esta técnica y su utilización puede
+    depender de factores como el tipo de aplicaciones que se ejecutan en la computadora y el rendimiento deseado.
+  </p>
+
+  <h2>Conjunto de instrucciones</h2>
+  <p>
+    El conjunto de instrucciones, también conocido como ISA (del inglés Instruction Set Architecture), es el conjunto de
+    instrucciones que puede ejecutar una computadora. Cada computadora tiene su propio conjunto de instrucciones, que se
+    define en su arquitectura de hardware y software.
+  </p>
+  <p>
+    El conjunto de instrucciones de una computadora determina qué acciones puede realizar y cómo pueden ser expresadas
+    las instrucciones en el lenguaje de programación. Por ejemplo, un conjunto de instrucciones puede incluir
+    instrucciones para operaciones aritméticas básicas como sumas y multiplicaciones, así como instrucciones para
+    controlar el flujo de ejecución del programa.
+  </p>
+  <p>
+    El conjunto de instrucciones de una computadora es un aspecto importante de su arquitectura y puede afectar su
+    rendimiento y eficiencia en la ejecución de tareas. Los conjuntos de instrucciones más completos y avanzados pueden
+    ofrecer un mayor rendimiento y capacidad de procesamiento, pero también pueden ser más complejos de programar y
+    requerir más recursos de hardware.
+  </p>
 </body>
 
 </html>
